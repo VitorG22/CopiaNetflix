@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/main.css">
+    
+
+    <!--owl css-->
+    <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/owl/owl.theme.default.css">
+
+    <!--responsividade-->
+
+    <link rel="stylesheet" href="style/reponsive.css">
+
+    <title>NETFLIX CLONE</title>
+</head>
+<body>
+   <header>
+    
+        <div class="container">
+            <h2 class="logo">NETFLIX</h2>
+            <nav>
+                <a href="#">Inicio</a>
+                <a href="#">Series</a>
+                <a href="#">Filmes</a>
+                <a href="#">Documentarios</a>
+                
+            </nav>
+        </div>
+   </header> 
+
+   <main>
+        <div class="filmeprincipal">
+           <div class="background0" id = "background">
+             <div class="container">
+                        <h3 class="titulo" id="titulo">THOR: AMOR E TROVÃO</h3>
+                <p class="descricao" id="descricao">Thor parte em uma jornada diferente de tudo que já enfrentou – uma busca pela paz interior. Mas sua aposentadoria é interrompida por um assassino galáctico conhecido como Gorr.</p>
+            
+                 <div class="botoes">
+                     <a class="botao" role="button" href = "https://www.youtube.com/watch?v=1c_W_4cNLn0" target="_blank" id="assista">
+                        ASSISTIR AGORA
+                     </a>
+                    <a class="botao"role="button" onclick="trocar()">
+                        MAIS INFORMAÇOES
+                       
+                    </a>
+                 </div>
+             </div>
+            </div>
+        </filmeprincipal> 
+   </main>
+
+   <div class="carrocelfilmes">
+        <div class="container">
+             <div class="owl-carousel owl-theme">
+                <a class="item" href="#" onclick="Back0()"><img class="box-filme"  id="box-filme" src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/6OEBp0Gqv6DsOgi8diPUslT2kbA.jpg" alt=""></a>
+                <a class="item" href="#" onclick="Back1()"><img class="box-filme"  id="box-filme" src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/5KBOy36wOAkAorpvHwvzEwQdJeR.jpg" alt=""></a>
+                <a class="item" href="#" onclick="Back2()"><img class="box-filme"  id="box-filme" src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/wNQlyv4S1j0pnsMe48ARAgI7Ncp.jpg" alt=""></a>
+                <a class="item" href="#" onclick="Back3()"><img class="box-filme"  id="box-filme" src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/g7Ii9sYAFG96W7cvMQ4zXq39RJ5.jpg" alt=""></a>
+                <a class="item" href="#" onclick="Back4()"><img class="box-filme"  id="box-filme" src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/l2ezB41chGDjXcKo24lseuXYtKP.jpg" alt=""></a>
+                <a class="item" href="#" onclick="Back5()"><img class="box-filme"  id="box-filme" src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/eO0QV5qJaEngP1Ax9w3eV6bJG2f.jpg" alt=""></a>
+                <a class="item" href="#" onclick="Back6()"><img class="box-filme"  id="box-filme" src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/q54qEgagGOYCq5D1903eBVMNkbo.jpg" alt=""></a>
+                <a class="item" href="#" onclick="Back7()"><img class="box-filme"  id="box-filme" src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/49WJfeN0moxb9IPfGn8AIqMGskD.jpg" alt=""></a>
+                <a class="item" href="#" onclick="Back8()"><img class="box-filme"  id="box-filme" src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/qhcwrnnCnN8NE1N6XXKHFmveJR9.jpg" alt=""></a>
+                <a class="item" href="#" onclick="Back9()"><img class="box-filme"  id="box-filme" src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/4KTaQLYRuac12gdPAYhXGHLSOW4.jpg" alt=""></a>
+                <a class="item" href="#" onclick="Back10()"><img class="box-filme"  id="box-filme" src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/t0fSUE2KsFNGXwui9knxd3XsW8n.jpg" alt=""></a>
+             </div>
+         </div>
+   </div>
+
+
+
+
+    <script src="js/owl/jquery.min.js"></script>
+    <script src="js/owl/owl.carousel.min.js"></script>
+    <script src="js/owl/main.js"></script>
+    <script src="js/owl/funcionalidade.js"></script>
+</body>
+</html>
